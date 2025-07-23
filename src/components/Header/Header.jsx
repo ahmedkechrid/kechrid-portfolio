@@ -12,6 +12,12 @@ const Header = () => {
         <h1>Kechrid Ahmed</h1>
         <h5 className='text-light'>FullStack developer</h5>
         <h5 className='text-light'>DataScientist</h5>
+        <h5 className="text-light">
+  Employed On <a href="https://www.linkedin.com/company/wkw-tunisie-s-a-r-l/posts/?feedView=all" class="company-link">
+  <span class="wkw">WKW.</span><span class="automotive">automotive</span>
+  </a>
+</h5>
+
         <CTA/>
         <HeaderSocials/>
         <div className='me'>

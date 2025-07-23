@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import img from "../../assests/cvahmed.jpg"
+import img from "../../assests/experience.jpg"
 import { FaAward } from "react-icons/fa6";
 import { FiUsers } from "react-icons/fi";
 import { PiFolderStar } from "react-icons/pi";
@@ -12,7 +12,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
             <div className="about__me-image">
-              <img src={img} alt="About image" />
+              <img src={img} alt="me" />
             </div>
          </div>
          <div className="about__content">
@@ -20,7 +20,7 @@ const About = () => {
             <article className='about-card'>
               <FaAward className='about__icon'/>
               <h5>Experiance</h5>
-              <small>1+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
             <article className='about-card'>
               <FiUsers className='about__icon'/>
@@ -30,7 +30,7 @@ const About = () => {
             <article className='about-card'>
               <PiFolderStar className='about__icon'/>
               <h5>Projects </h5>
-              <small>2+ Completed</small>
+              <small>6+ Completed</small>
             </article>
           </div>
           <p>
